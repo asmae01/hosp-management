@@ -4,7 +4,7 @@ from flask_login  import LoginManager,UserMixin,login_user,login_required,logout
 from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 from datetime import datetime
-from flask_mail import Mail,Message
+from flask_mail import *
 
 
 
